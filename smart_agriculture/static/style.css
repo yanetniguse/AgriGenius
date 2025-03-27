@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5fff5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #2d7b2d;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* FAQ Chatbot */
+#faq-chatbot {
+    background: #e0f2e0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* AgriChat AI */
+#agri-chat {
+    background: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#chatbox {
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#chat-history {
+    background: white;
+    padding: 10px;
+    min-height: 200px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    flex: 1; /* Pushes the footer down */
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
