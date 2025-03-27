@@ -86,7 +86,7 @@ This project is licensed under the **MIT License**.
 ## 💬 **Contact & Support**  
 📧 **Email:** yanetesfay@gmail.com  
 🔗 **LinkedIn:** [yanetniguse7](https://www.linkedin.com/in/yanetniguse7)  
-🌍 **Website/Portfolio:** [Your Website](https://yanet-niguse-tesfay.vercel.app/)  
+🌍 **Website/Portfolio:** [My Website](https://yanet-niguse-tesfay.vercel.app/)  
 
 ---
 
