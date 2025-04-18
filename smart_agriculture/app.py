@@ -1,9 +1,10 @@
+import logging
 from flask import Flask, request, render_template, jsonify
 from irrigation import get_irrigation_recommendation
 import sqlite3
 import requests
 import os
-import logging
+
 
 app = Flask(__name__)
 
