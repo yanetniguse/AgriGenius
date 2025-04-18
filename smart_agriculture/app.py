@@ -2,6 +2,7 @@ from flask import Flask, request, render_template, jsonify
 from irrigation import get_irrigation_recommendation
 import sqlite3
 import requests
+import os
 
 app = Flask(__name__)
 
@@ -141,5 +142,7 @@ def get_irrigation_recommendation():
     return jsonify({"recommendation": recommendation})
 
 
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))  # Default to 5000 if PORT isn't set
+    app.run(host='0.0.0.0', port=port)
